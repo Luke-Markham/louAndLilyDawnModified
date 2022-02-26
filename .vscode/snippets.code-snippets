@@ -1,0 +1,10 @@
+{
+	"console log for liquid": {
+		"scope": "html",
+		"prefix": "logger",
+		"body": [
+			"<script>console.log({{ ${1} | json }})</script>"
+		],
+		"description": "Log output to console i.e <script>console.log({{ collection | json }})</script>"
+	}
+}
