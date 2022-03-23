@@ -215,6 +215,11 @@
     }
   },
   "sections": {
+    "announcement_bar": {
+      "text": {
+        "default": "Welcome to our store"
+      }
+    },
     "header": {
       "announcement": "Announcement",
       "menu": "Menu",

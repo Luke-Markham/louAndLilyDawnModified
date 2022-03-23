@@ -215,6 +215,11 @@
     }
   },
   "sections": {
+    "announcement_bar": {
+      "text": {
+        "default": "Kính chào quý khách"
+      }
+    },
     "header": {
       "announcement": "Thông báo",
       "menu": "Menu",

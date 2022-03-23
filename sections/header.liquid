@@ -360,7 +360,12 @@ margin-bottom: {{ section.settings.margin_bottom }}px;
           width="{{ section.settings.logo.width }}" height="{{ section.settings.logo.height }}"
           alt="{{ section.settings.logo.alt | default: shop.name | escape }}">
         {%- else -%}
-        <span class="h2">{{ shop.name }}</span>
+        <img
+          srcset="{{ 'Lou_Lily_Logo_Master500x500.png' | asset_img_url: image_size }} 1x, {{ 'Lou_Lily_Logo_Master500x500.png' | asset_img_url: image_size, scale: 2 }} 2x"
+          src="{{ 'Lou_Lily_Logo_Master500x500.png' | asset_img_url: image_size }}" loading="lazy"
+          class="header__heading-logo" width="{{ section.settings.logo.width }}"
+          height="{{ section.settings.logo.height }}"
+          alt="{{ section.settings.logo.alt | default: shop.name | escape }}">
         {%- endif -%}
       </a>
       {%- if request.page_type == 'index' -%}
@@ -694,7 +699,7 @@ requestAnimationFrame(this.hide.bind(this));
     "min": 50,
     "max": 250,
     "step": 10,
-    "default": 100,
+    "default": 120,
     "unit": "t:sections.header.settings.logo_width.unit",
     "label": "t:sections.header.settings.logo_width.label"
     },

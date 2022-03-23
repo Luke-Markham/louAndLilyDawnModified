@@ -4,22 +4,21 @@
 {% assign curLangFlagImgUrl = curLangIsoCode | downcase | append: 'Flag.png' %}
 
 {% form 'localization', id: 'localization_form', class: 'lang-select-form' %}
-
 <div class="lang-select">
-    <img class="lang-select__selected-language-flag" src={{ curLangFlagImgUrl | file_img_url: '24x' }} />
-    <img class="lang-select__dropdown-arrow" src={{ 'down-arrow.png' | file_img_url: '24x' }} />
+    <img class="lang-select__selected-language-flag" src={{ curLangFlagImgUrl | asset_img_url: '24x' }} />
+    <img class="lang-select__dropdown-arrow" src={{ 'down-arrow.png' | asset_img_url: '24x' }} />
 </div>
 <div class="lang-select__dropdown hidden">
     {% for language in localization.available_languages %}
     {% unless language.iso_code == curLangIsoCode %}
     {% assign langFlagImgUrl = language.iso_code | downcase | append: 'Flag.png' %}
-    {% assign langIsoCode = language.iso_code %}
-    {% if langIsoCode == 'vi' %}
-    {% assign langIsoCode = 'vn' %}
+    {% assign langAbbreviation = language.iso_code %}
+    {% if langAbbreviation == 'vi' %}
+    {% assign langAbbreviation = 'vn' %}
     {% endif %}
     <div class="lang-select__option" lang={{language.iso_code}}>
-        <img src="{{ langFlagImgUrl | file_img_url: '24x' }}" alt={{language.name}} />
-        <p>{{langIsoCode | upcase}}</p>
+        <img src="{{ langFlagImgUrl | asset_img_url: '24x' }}" alt={{language.name}} />
+        <p>{{langAbbreviation | upcase}}</p>
     </div>
     {% endunless %}
     {% endfor %}
