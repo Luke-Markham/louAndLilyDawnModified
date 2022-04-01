@@ -24,7 +24,7 @@
       {
         "type": "color",
         "id": "colors_accent_1",
-        "default": "#121212",
+        "default": "#FF9800",
         "label": "t:settings_schema.colors.settings.colors_accent_1.label",
         "info": "t:settings_schema.colors.settings.colors_accent_1.info"
       },
@@ -36,7 +36,7 @@
       {
         "type": "color",
         "id": "colors_accent_2",
-        "default": "#334FB4",
+        "default": "#45B64A",
         "label": "t:settings_schema.colors.settings.colors_accent_2.label"
       },
       {
@@ -129,7 +129,7 @@
         "step": 5,
         "unit": "%",
         "label": "t:settings_schema.typography.settings.body_scale.label",
-        "default": 100
+        "default": 105
       }
     ]
   },
@@ -451,7 +451,7 @@
             "label": "t:settings_schema.cards.settings.style.options__2.label"
           }
         ],
-        "default": "standard",
+        "default": "card",
         "label": "t:settings_schema.cards.settings.style.label"
       },
       {
@@ -481,7 +481,7 @@
             "label": "t:settings_schema.global.settings.text_alignment.options__3.label"
           }
         ],
-        "default": "left",
+        "default": "center",
         "label": "t:settings_schema.global.settings.text_alignment.label"
       },
       {
@@ -509,7 +509,7 @@
             "label": "t:settings_schema.global.settings.color_scheme.options__5.label"
           }
         ],
-        "default": "background-2",
+        "default": "background-1",
         "label": "t:settings_schema.global.settings.color_scheme.label"
       },
       {
@@ -541,10 +541,10 @@
         "id": "card_corner_radius",
         "min": 0,
         "max": 40,
-        "step": 2,
+        "step": 1,
         "unit": "px",
         "label": "t:settings_schema.global.settings.corner_radius.label",
-        "default": 0
+        "default": 5
       },
       {
         "type": "header",
@@ -624,7 +624,7 @@
         "id": "text_boxes_radius",
         "min": 0,
         "max": 40,
-        "step": 2,
+        "step": 1,
         "unit": "px",
         "label": "t:settings_schema.global.settings.corner_radius.label",
         "default": 0

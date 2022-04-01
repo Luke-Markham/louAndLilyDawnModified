@@ -8,11 +8,7 @@
   <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
     {%- endif -%}
     <p class="announcement-bar__message h4">
-      {%- if block.settings.text == blank -%}
       {{ 'sections.announcement_bar.text.default' | t }}
-      {% else %}
-      {{ block.settings.text | escape }}
-      {% endif %}
       {%- if block.settings.link != blank -%}
       {% render 'icon-arrow' %}
       {%- endif -%}
@@ -35,11 +31,6 @@
 "type": "announcement",
 "name": "t:sections.announcement-bar.blocks.announcement.name",
 "settings": [
-{
-"type": "text",
-"id": "text",
-"label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
-},
 {
 "type": "select",
 "id": "color_scheme",
@@ -65,7 +56,7 @@
 "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__5.label"
 }
 ],
-"default": "accent-1",
+"default": "inverse",
 "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.label"
 },
 {
