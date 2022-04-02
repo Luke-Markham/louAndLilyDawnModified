@@ -255,6 +255,10 @@
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Đăng nhập</a> để thanh toán nhanh hơn."
       }
     },
+    "email_sign_up": {
+      "heading": "Sắp ra mắt!",
+      "paragraph": "Đăng kí để biết thông tin & nhận giảm 15% cho đơn hàng đầu tiên"
+    },
     "footer": {
       "payment": "Phương thức thanh toán"
     },

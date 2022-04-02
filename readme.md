@@ -1,9 +1,10 @@
-# Typography 
- Roboto
+# Typography
+
+varela round in theme settings
 
 # Navigation/Menu
 
-You must create have two menu on the store
+You must create two menu on the store
 
 1. Main menu en
    - Home
@@ -13,4 +14,9 @@ You must create have two menu on the store
    - Về Chúng Tôi
 
 # Pages
+
 About Us/Về Chúng Tôi
+
+# Social Link
+
+set up links in theme settings

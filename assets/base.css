@@ -2240,8 +2240,8 @@ input[type="checkbox"] {
 }
 
 .header__heading-logo {
-  height: auto;
-  width: 100%;
+  width: 125px;
+  height: 125px;
 }
 
 @media screen and (max-width: 989px) {
