@@ -37,8 +37,8 @@
         "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "blurb": {
+      "type": "blurb",
       "blocks": {
         "heading": {
           "type": "heading",
@@ -54,8 +54,8 @@
         "text"
       ],
       "settings": {
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "featured_collection": {
@@ -130,7 +130,7 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
+    "blurb",
     "featured_collection",
     "collage",
     "video",

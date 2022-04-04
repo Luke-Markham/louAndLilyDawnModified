@@ -11,9 +11,13 @@ You must create two menu on the store
    - About Us
    - Contact
 2. Main menu vi
+   - Trang Chủ
    - Về Chúng Tôi
+   - Liên Hệ
 
 # Pages
+
+edit urls to contain no special characters
 
 About Us/Về Chúng Tôi
 

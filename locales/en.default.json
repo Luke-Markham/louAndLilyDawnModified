@@ -220,6 +220,10 @@
         "default": "Welcome to our store"
       }
     },
+    "blurb": {
+      "heading": "It's about living up to your potential",
+      "paragraph": "That's we we have the best products from..todo"
+    },
     "header": {
       "announcement": "Announcement",
       "menu": "Menu",

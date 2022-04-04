@@ -3,6 +3,8 @@
 {% assign curLangIsoCode = localization.language.iso_code %}
 {% assign curLangFlagImgUrl = curLangIsoCode | downcase | append: 'Flag.png' %}
 
+
+
 {% form 'localization', id: 'localization_form', class: 'lang-select-form' %}
 <div class="lang-select">
     <img class="lang-select__selected-language-flag" src={{ curLangFlagImgUrl | asset_img_url: '24x' }} />

@@ -25,10 +25,8 @@
   position: absolute;
   left: -2px;
   top: 34px;
-  border: 1px solid #e3e3e3;
   border-radius: 2px;
-  background-color: #f3f3f3;
-  animation: fadeIn 0.3s ease-in;
+  animation: fadeIn 0.3s ease-in-out;
 }
 
 .lang-select__option {
