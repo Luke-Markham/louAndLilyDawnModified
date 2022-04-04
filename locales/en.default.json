@@ -259,6 +259,9 @@
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in</a> to check out faster."
       }
     },
+    "contact": {
+      "heading": "Contact"
+    },
     "email_sign_up": {
       "heading": "Coming soon!",
       "paragraph": "Be the first to know when we launch & get 15% off your first order"
