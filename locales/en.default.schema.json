@@ -258,15 +258,6 @@
         }
       }
     },
-    "favicon": {
-      "name": "Favicon",
-      "settings": {
-        "favicon": {
-          "label": "Favicon image",
-          "info": "Will be scaled down to 32 x 32px"
-        }
-      }
-    },
     "currency_format": {
       "name": "Currency format",
       "settings": {

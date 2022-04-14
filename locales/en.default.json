@@ -267,7 +267,10 @@
       "paragraph": "Be the first to know when we launch & get 15% off your first order"
     },
     "footer": {
-      "payment": "Payment methods"
+      "payment": "Payment methods",
+      "email_sign_up": {
+        "heading": "Subscribe for updates and special offers"
+      }
     },
     "featured_blog": {
       "view_all": "View all",
