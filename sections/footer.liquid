@@ -130,15 +130,21 @@ padding-bottom: {{ section.settings.padding_bottom }}px;
       {%- endif -%}
       <ul class="footer__list-social list-unstyled list-social" role="list">
         <li class="list-social__item">
-          <a href="{{ settings.social_facebook_link }}" class="link list-social__link">
+          <a href="{{ settings.social_facebook_link }}" target="_blank" class="link list-social__link">
             {%- render 'icon-facebook' -%}
             <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
           </a>
         </li>
         <li class="list-social__item">
-          <a href="{{ settings.social_instagram_link }}" class="link list-social__link">
+          <a href="{{ settings.social_instagram_link }}" target="_blank" class="link list-social__link">
             {%- render 'icon-instagram-footer' -%}
             <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+          </a>
+        </li>
+        <li class="list-social__item">
+          <a href="{{ settings.social_shopee_link }}" target="_blank" class="link list-social__link">
+            {%- render 'icon-shopee' -%}
+            <span class="visually-hidden">{{ 'general.social.links.shopee' | t }}</span>
           </a>
         </li>
       </ul>
